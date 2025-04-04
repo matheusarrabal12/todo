@@ -1,0 +1,100 @@
+/* Estilos para a lista de tarefas */
+h2 {
+    text-align: center;
+    color: purple;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  div {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: purple;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  li.concluida {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+  }
+  
+  button.remover {
+    background-color: #f44336;
+  }
+  
+  button.remover:hover {
+    background-color: #e53935;
+  }
+  
+  button.marcar-concluida {
+    background-color: #2196f3;
+  }
+  
+  button.marcar-concluida:hover {
+    background-color: #1976d2;
+  }
+  
+  #ordenacao {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #ordenacao select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  } 
+
+  .divcabeçalho {
+     background: purple; 
+     color: white;  
+     padding: 10px;
+    
+  }
